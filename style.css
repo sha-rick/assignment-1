@@ -9,7 +9,7 @@
     /* color: #575757; */
 
 }
-
+                                /* NAV Start  */
 nav {
     display: flex;
     justify-content: space-between;
@@ -23,11 +23,13 @@ nav {
     font-size: 90px;
     font-weight: 500;
 }
-.bigbtn{
-    padding: 18px 30px  !important;
+
+.bigbtn {
+    padding: 18px 30px !important;
     font-size: large;
 
 }
+
 .mybtn {
     background-color: #2563EB;
     padding: 10px 20px;
@@ -44,12 +46,6 @@ nav {
 
 }
 
-.disflx {
-    /* color:#0D1B2A ;
-    background: #0D1B2A; */
-    /* display: flex;
-    justify-content: space-around; */
-}
 
 .mnu {
     display: flex;
@@ -61,7 +57,12 @@ nav {
     text-decoration: none;
     color: black;
 }
-
+.mnu a:hover{
+    font-weight: bolder;
+    text-decoration: underline cornflowerblue;
+}
+                                                  /* NAV END  
+                                                 BANNER Start  */
 header {
     height: 93vh;
     background-image: url("./images/banner.jpg");
@@ -86,6 +87,14 @@ header {
     align-items: stretch;
 }
 
+.disflex {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+                             
+                                                       /* <!-- BANNER END  -->
+                                                  <!-- Meet the Speakers sart  --> */
 section {
     margin: 50px 70px;
 }
@@ -131,14 +140,17 @@ section {
     border: 1px solid #575757;
     border-radius: 10px;
 }
-.card:hover{
-    box-shadow: 0 10px 10px  rgba(0, 0, 0, 0.3);
+
+.card:hover {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
+
 .crdtxt {
     padding-left: 10px;
     line-height: 2;
 }
-
+                                            /* <!-- Meet the Speakers END  -->
+                                         <!-- Secure Your Spot start --> */
 .heding {
     margin: 60px auto;
     line-height: 2;
@@ -176,6 +188,10 @@ section {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
 
+.pcard-hoverp:hover {
+    color: #2563EB;
+}
+
 .pcard:nth-child(2) {
     background-color: black;
     color: white;
@@ -208,4 +224,76 @@ section {
 
 .pcard li::marker {
     color: #2563EB;
+}
+                                       /* <!-- Secure Your Spot end --> */
+                                        /* PLACEHOLDER SECTION Start */
+.faq {
+    width: 70%;
+    margin: 50px auto;
+}
+
+.faq h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+details {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background: #f9f9f9;
+}
+
+summary {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+details p {
+    margin-top: 10px;
+    color: #555;
+}
+
+
+
+
+
+
+/* foot */
+footer {
+    background-color: black;
+    height: 10%;
+    width: 100%;
+    padding: 30px;
+}
+
+.fot {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.socciallink img {
+    width: 40px;
+    height: 40px;
+
+}
+
+hr {
+    border: none;
+    height: 1px;
+    margin: 30px 0;
+    background-color: rgb(151, 150, 150);
+}
+
+.disflex {
+    color: rgb(192, 192, 192);
+    display: flex;
+    justify-content: space-around;
+}
+.disflex a{
+    color: rgb(143, 143, 143);
 }
