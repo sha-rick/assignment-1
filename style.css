@@ -21,7 +21,7 @@ nav {
 }
 
 .bigbtn {
-    padding: 18px 30px !important;
+    padding: 15px 25px !important;
     font-size: large;
 
 }
@@ -60,14 +60,14 @@ nav {
                                                  BANNER Start  */
 header {
     height: 93vh;
-    background-image: url("./images/banner.jpg");
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5) ),
+    url("./images/banner.jpg");
     color: white;
             
                         /* overlay */
 
-    background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: darken;
-    background-size: cover;
 
     background-size: cover;
     background-position: center;
